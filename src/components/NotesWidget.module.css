@@ -2,9 +2,9 @@
     height: 100%;
     width: 100%;
     background: #F1C75B;
-    padding: 15px;
     display: flex;
     flex-direction: column;
+    padding: 15px;
     border-radius: 20px;
 }
 
@@ -15,22 +15,21 @@
     margin-bottom: 15px;
 }
 
+
 .container textarea {
     background: transparent;
     border: none;
     resize: none;
+    width: 100%;
     flex: 1;
-    height: 500%;
     overflow-y: scroll;
 }
+
 .container textarea:focus {
     outline: none;
 }
 
 .container ::-webkit-scrollbar {
-    /* padding: 2px; */
-    /* background: #FFE6A6; */
-    /* width: 18px; */
     border-radius: 10px;
 }
 

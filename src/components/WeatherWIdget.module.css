@@ -1,7 +1,7 @@
 .container {
     height: 100%;
     width: 100%;
-    background-color: #101744;
+    background: #101744;
     border-radius: 20px;
     padding: 20px;
     display: flex;
@@ -16,7 +16,7 @@
 
 .content {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     margin-top: 20px;
 }

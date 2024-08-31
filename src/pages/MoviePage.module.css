@@ -1,8 +1,10 @@
 .container {
     width: 100vw;
-    height: 100vh;
+    /* height: 100%; */
     display: flex;
+    flex-direction: column;
     padding: 20px;
+    overflow-y: scroll;
 }
 
 .header {
@@ -14,7 +16,7 @@
 
 .heading {
     flex: 1;
-    font-family: "SIngle Day", cursive;
+    font-family: "Single Day", cursive;
     font-size: 2rem;
     color: #72DB73;
 }
@@ -22,6 +24,6 @@
 .header img {
     width: 80px;
     object-fit: contain;
-    /* width: 150px; */
-    /* object-fit: cover; */
+    /* width: 100px;
+    object-fit: contain; */
 }

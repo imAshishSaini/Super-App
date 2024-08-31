@@ -1,5 +1,5 @@
 .container {
-    height: 100vh;  
+    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -10,25 +10,21 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: yellow;
 }
 
-.selectedGenres {
-}
+.selectedGenres {}
 
 .selectedGenre {
     cursor: pointer;
 }
+
 .right {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: orange;
 }
 
-.genres {
-
-}
+.genres {}
 
 .genre {
     cursor: pointer;

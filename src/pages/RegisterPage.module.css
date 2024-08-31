@@ -3,7 +3,6 @@
     width: 100vw;
     display: flex;
     flex-direction: row;
-    padding: 20px;
 }
 
 .left {
@@ -11,6 +10,7 @@
     display: flex;
     flex-direction: column;
     background: url("../assets/bg.png");
+
 }
 
 .right {
@@ -23,7 +23,7 @@
     gap: 20px;
 }
 
-.footer span{
+.footer span {
     color: #72DB73;
     cursor: pointer;
 }
